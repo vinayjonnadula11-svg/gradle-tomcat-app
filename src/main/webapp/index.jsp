@@ -10,7 +10,7 @@
 
     <h2>CI/CD Pipeline</h2>
 
-    <p>GitHub → Jenkins → Gradle → WAR → Tomcat</p>
+    <p>GitHub -> Jenkins -> Gradle -> WAR -> Tomcat</p>
 
 </body>
 </html>
