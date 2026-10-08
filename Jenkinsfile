@@ -11,6 +11,7 @@ pipeline {
 
         stage('Gradle Build') {
             steps {
+                bat 'gradle --version'
                 bat 'gradle clean war'
             }
         }
