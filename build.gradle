@@ -1,0 +1,14 @@
+plugins {
+    id 'war'
+}
+
+group = 'com.example'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+war {
+    archiveFileName = 'gradle-tomcat-app.war'
+}
